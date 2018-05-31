@@ -1,0 +1,30 @@
+[moi-audio@moi-audios-imac]SOTNIKOV/WebDevWithClj/guestbook 503 % lein repl :connect 7000
+Connecting to nREPL at 127.0.0.1:7000
+REPL-y 0.3.7, nREPL 0.2.12
+Clojure 1.8.0
+Java HotSpot(TM) 64-Bit Server VM 1.8.0_121-b13
+    Docs: (doc function-name-here)
+          (find-doc "part-of-name-here")
+  Source: (source function-name-here)
+ Javadoc: (javadoc java-object-or-class-here)
+    Exit: Control+D or (exit) or (quit)
+ Results: Stored in vars *1, *2, *3, an exception in *e
+
+user=> (require '[guestbook.db.core :refer :all])
+nil
+user=> (mount/start #'guestbook.db.core/*db*)
+{:started ["#'guestbook.db.core/*db*"]}
+user=> (get-messages)
+()
+user=> (doc save-message!)
+-------------------------
+guestbook.db.core/save-message!
+  creates a new message using the name, message, and timestamp keys
+nil
+user=> (save-message! {:name "Bob-test" 
+  #_=> :message "Hello Bob-test-message"
+  #_=> :timestamp (java.util.Date.)})
+1
+user=> (get-messages)
+({:id 1, :name "Bob-test", :message "Hello Bob-test-message", :timestamp #inst "2018-05-31T16:58:01.246000000-00:00"})
+user=> 

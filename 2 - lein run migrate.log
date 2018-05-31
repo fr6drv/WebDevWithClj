@@ -1,0 +1,12 @@
+[moi-audio@moi-audios-imac]SOTNIKOV/WebDevWithClj/guestbook 502 % lein run migrate
+[2018-05-31 18:19:09,139][DEBUG][org.jboss.logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2018-05-31 18:19:09,813][INFO][migratus.core] Starting migrations
+[2018-05-31 18:19:10,148][INFO][migratus.database] creating migration table 'schema_migrations'
+[2018-05-31 18:19:10,169][WARN][migratus.database] '_20180531175826-add-users-table.down.sql' does not appear to be a valid migration
+[2018-05-31 18:19:10,169][WARN][migratus.database] '_20180531175826-add-users-table.up.sql' does not appear to be a valid migration
+[2018-05-31 18:19:10,174][INFO][migratus.core] Running up for [20180531181417]
+[2018-05-31 18:19:10,174][INFO][migratus.core] Up 20180531181417-guestbook
+[2018-05-31 18:19:10,177][DEBUG][migratus.database] found 1 up migrations
+[2018-05-31 18:19:10,205][DEBUG][migratus.database] marking 20180531181417 complete
+[2018-05-31 18:19:10,213][INFO][migratus.core] Ending migrations
+[moi-audio@moi-audios-imac]SOTNIKOV/WebDevWithClj/guestbook 503 % 
