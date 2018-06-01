@@ -1,0 +1,56 @@
+[moi-audio@moi-audios-imac]CLOJURE/SOTNIKOV/WebDevWithClj 533 % git add guestbook/
+[moi-audio@moi-audios-imac]CLOJURE/SOTNIKOV/WebDevWithClj 534 % git status        
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   1 - lein new luminus gustbbok +h2.log
+	new file:   2 - lein run migrate.log
+	new file:   3 - lein repl -connect 7000.log
+	new file:   guestbook/.gitignore
+	new file:   guestbook/Capstanfile
+	new file:   guestbook/Dockerfile
+	new file:   guestbook/Procfile
+	new file:   guestbook/README.md
+	new file:   guestbook/env/dev/clj/guestbook/dev_middleware.clj
+	new file:   guestbook/env/dev/clj/guestbook/env.clj
+	new file:   guestbook/env/dev/clj/user.clj
+	new file:   guestbook/env/dev/resources/config.edn
+	new file:   guestbook/env/dev/resources/log4j.properties
+	new file:   guestbook/env/prod/clj/guestbook/env.clj
+	new file:   guestbook/env/prod/resources/config.edn
+	new file:   guestbook/env/prod/resources/log4j.properties
+	new file:   guestbook/env/test/resources/config.edn
+	new file:   guestbook/guestbook_dev.db.mv.db
+	new file:   guestbook/project.clj
+	new file:   guestbook/resources/docs/docs.md
+	new file:   guestbook/resources/migrations/20180531181417-guestbook.down.sql
+	new file:   guestbook/resources/migrations/20180531181417-guestbook.up.sql
+	new file:   guestbook/resources/migrations/_20180531175826-add-users-table.down.sql
+	new file:   guestbook/resources/migrations/_20180531175826-add-users-table.up.sql
+	new file:   guestbook/resources/public/css/screen.css
+	new file:   guestbook/resources/public/favicon.ico
+	new file:   guestbook/resources/sql/queries.sql
+	new file:   guestbook/resources/templates/about.html
+	new file:   guestbook/resources/templates/base.html
+	new file:   guestbook/resources/templates/error.html
+	new file:   guestbook/resources/templates/home.html
+	new file:   guestbook/src/clj/guestbook/config.clj
+	new file:   guestbook/src/clj/guestbook/core.clj
+	new file:   guestbook/src/clj/guestbook/db/core.clj
+	new file:   guestbook/src/clj/guestbook/handler.clj
+	new file:   guestbook/src/clj/guestbook/layout.clj
+	new file:   guestbook/src/clj/guestbook/middleware.clj
+	new file:   guestbook/src/clj/guestbook/routes/home.clj
+	new file:   guestbook/test/clj/guestbook/test/db/core.clj
+	new file:   guestbook/test/clj/guestbook/test/handler.clj
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   guestbook/guestbook_dev.db.mv.db
+
+[moi-audio@moi-audios-imac]CLOJURE/SOTNIKOV/WebDevWithClj 535 %      
